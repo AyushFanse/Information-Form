@@ -1,0 +1,77 @@
+body > table {
+  width: 80%;
+}
+
+table {
+  border-collapse: collapse;
+}
+table.list {
+  width: 100%;
+}
+
+td,
+th {
+  border: 3px solid #848484;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even),
+table.list thead > tr {
+  background-color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  color:white;
+  border: 2px solid rgb(77, 76, 79);
+  background-color: #1d1827;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 30%;
+  background-color: #ddd;
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons {
+  text-align: right;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+label.validation-error {
+  color: red;
+  margin-left: 5px;
+}
+
+.hide {
+  display: none;
+}
+input[type="submit"]{
+    color:white;
+    background: radial-gradient(circle, rgb(0, 83, 116) 0%, rgb(0, 22, 92) 100%);
+    margin: 2px;
+}
+td.inputData{
+    color: white;
+    background: radial-gradient(circle, rgb(111, 231, 255) 0%, rgb(15, 126, 166) 94%, rgba(8, 118, 78, 0.952) 100%);
+}
+#edit{
+    background-color: rgb(255, 119, 119);
+}
